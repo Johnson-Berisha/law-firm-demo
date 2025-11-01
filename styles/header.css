@@ -30,6 +30,11 @@ header {
 .special-link {
     background-color: var(--accent-hover);
     padding: var(--spacing-xs) var(--spacing-md);
+    padding: var(--spacing-xs) var(--spacing-md);
+    border: var(--accent) 1px solid;
+    
+    transition: background-color var(--transition-fast);
+    
     color: white;
     border-radius: 50px;
 }
@@ -48,4 +53,7 @@ header {
     font-weight: 300;
 }
 
-
+.special-link:hover {
+    background-color: white;
+    color: var(--accent);
+}
