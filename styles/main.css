@@ -1,0 +1,45 @@
+:root {
+  /* Core Colors */
+  --text-light: #111;
+  --text-dark: #f5f5f5;
+  --bg-light: #ffffff;
+  --bg-dark: #0d1117;
+
+  /* Accent & UI */
+  --accent: #A48B3A;
+  --accent-hover: #B39255;
+  --border: rgba(0, 0, 0, 0.1);
+  --radius: 0.75rem;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #A48B3A, #B39255);
+  --gradient-dark: linear-gradient(135deg, #0d1117, #1e2329);
+
+  /* Typography */
+  --font-base: "Inter", system-ui, sans-serif;
+  --font-size: clamp(14px, 1.2vw, 18px);
+  --line-height: 1.6;
+
+  /* Layout & Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --max-width: 1200px;
+
+  /* Transitions & Shadows */
+  --transition-fast: 0.2s ease-in-out;
+  --shadow-soft: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0 var(--spacing);
+}
