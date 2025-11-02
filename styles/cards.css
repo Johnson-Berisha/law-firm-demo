@@ -35,3 +35,12 @@
     text-align: center;
 
 }
+
+.card h2 {
+    font-family: serif;
+}
+
+.card .card-img .demo-img {
+    height: 70px;
+    width: 70px;
+}
