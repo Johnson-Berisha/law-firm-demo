@@ -1,0 +1,58 @@
+.aboutme2 {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-lg);
+}
+
+.aboutme2-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    width: 960px;
+    padding: var(--spacing-lg);
+}
+
+.aboutme2-actual-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    border-bottom: 1px rgb(184, 180, 180) solid;
+    padding-bottom: var(--spacing-md);
+}
+
+.aboutme2-actual-text .cta {
+    width: fit-content;
+    /* weird bug */
+}
+
+.aboutme2-actual-text h1 {
+    font-family: serif;
+    font-weight: 500;
+}
+
+.aboutme2-actual-text p {
+    max-width: 635px;
+}
+.aboutme2-img .demo-img {
+    width: 600px;
+    height: 770px;
+
+    transform: translate(30%, -10%);
+}
+
+.three-img {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+    width: 70%;
+}
+
+.three-img .demo-img {
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
