@@ -1,0 +1,39 @@
+.three-cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.three-cards h1 {
+    font-family: serif;
+    font-weight: 500;
+}
+
+.three-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
+.three-card {
+   width: 400px;
+}
+
+.three-card .demo-img {
+    height: 270px;
+    width: 400px;
+}
+
+.three-card span {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+a.text-link {
+    color: var(--accent);
+    font-weight: 500;
+}
