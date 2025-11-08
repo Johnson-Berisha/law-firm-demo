@@ -127,3 +127,35 @@ header {
     background-color: #a8aeb4;
     border-radius: 10px;
 }
+
+/* responsiveness */
+
+@media (max-width: 768px) {
+    .actual-header {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+    .links {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-img, .hero-text {
+        width: 100%;
+        clip-path: none;
+    }
+
+    .about {
+        flex-direction: column;
+        gap: var(--spacing-lg);
+        text-align: center;
+    }
+
+    .about-img {
+        width: 60%;
+    }
+}

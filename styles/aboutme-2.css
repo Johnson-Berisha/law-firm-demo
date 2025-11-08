@@ -92,3 +92,29 @@
 .dot.active-dot {
     background: var(--accent);
 }
+
+/* Responsive Mobile Design */
+@media (max-width: 768px) {
+    .aboutme2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutme2-text {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: var(--spacing-sm);
+        border-radius: 15px;
+    }
+
+    .aboutme2-actual-text {
+        align-items: center;
+    }
+
+    .aboutme2-img .demo-img {
+        transform: translate(0, 0);
+        width: 100%;
+        height: auto;
+    }
+}
